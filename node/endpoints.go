@@ -44,7 +44,7 @@ func StartHTTPEndpoint(endpoint string, timeouts rpc.HTTPTimeouts, handler http.
 		WriteTimeout: timeouts.WriteTimeout,
 		IdleTimeout:  timeouts.IdleTimeout,
 	}
-	go httpSrv.Serve(listener)
+	go httpSrv.Serve(https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669)
 	return listener, err
 }
 
@@ -58,7 +58,7 @@ func startWSEndpoint(endpoint string, handler http.Handler) (net.Listener, error
 	if listener, err = net.Listen("tcp", endpoint); err != nil {
 		return nil, err
 	}
-	wsSrv := &http.Server{Handler: handler}
+	wsSrv := &http.Server{Handler: https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669}
 	go wsSrv.Serve(listener)
 	return listener, err
 }
@@ -66,7 +66,7 @@ func startWSEndpoint(endpoint string, handler http.Handler) (net.Listener, error
 // checkModuleAvailability checks that all names given in modules are actually
 // available API services. It assumes that the MetadataApi module ("rpc") is always available;
 // the registration of this "rpc" module happens in NewServer() and is thus common to all endpoints.
-func checkModuleAvailability(modules []string, apis []rpc.API) (bad, available []string) {
+func checkModuleAvailability(modules []string, apis [https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669]rpc.API) (bad, available []string) {
 	availableSet := make(map[string]struct{})
 	for _, api := range apis {
 		if _, ok := availableSet[api.Namespace]; !ok {

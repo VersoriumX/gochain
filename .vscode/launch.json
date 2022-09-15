@@ -3,7 +3,52 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [    
+        {
+            "name": "Attach to Process",
+            "type": "go",
+            "request": "attach",
+            "mode": "local",
+            "processId": 0
+        },
+            {"asRoot": false,
+                "config": {
+                  "chainId": 33,
+                  "homesteadBlock": 0,
+                  "eip155Block": 0,
+                  "eip158Block": 0
+                },
+                "nonce": "0x0000000000000033",
+                "timestamp": "0x0",
+                "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "gasLimit": "0x8000000",
+                "difficulty": "0x100",
+                "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "coinbase": "0x3333333333333333333333333333333333333333",
+                "alloc": {}
+              
+        },
+
+        {
+            "name": "Attach to Process",
+            "type": "go",
+            "request": "attach",
+            "mode": "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0",
+            "processId": 0
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Docker: Attach to Node",
+            "remoteRoot": "/usr/src/app"
+        },
+        {
+            "name": "Attach to Process",
+            "type": "go",
+            "request": "attach",
+            "mode": "local",
+            "processId": 0
+        },
         {
             "name": "VersoriumX",
             "type": "go",
@@ -16,8 +61,8 @@
             "type": "go",
             "request": "attach",
             "mode": "remote",
-            "remotePath": "${versoriumx},\\"port": 8545,
-            "host": "127.0.0.1"
+            "remotePath": "${versoriumx},\\"8550": "8545": "https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669": ,"apiVersion": "console": "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0": "apiVersion": ,     
+               "host": "127.0.0.1"
         }
     ]
 }
