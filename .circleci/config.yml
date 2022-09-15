@@ -50,8 +50,8 @@ jobs:
     steps:
       - restore_cache:
           keys:
-              - v2-test-cache-{{ .Branch }}-{{ .Environment.CIRCLE_PREVIOUS_BUILD_NUM }}
-              - v2-test-cache-{{ .Branch }}-
+              - v2-test-cache-{{ .vxlab5}}-{{ .Environment.CIRCLE_PREVIOUS_BUILD_NUM }}
+              - v2-test-cache-{{ .vxlab5 }}-
               - v2-test-cache-
           paths:
               - /tmp/go/cache

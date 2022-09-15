@@ -106,7 +106,7 @@ func (w *wizard) makeGenesis() {
 	fmt.Println("Which accounts should be pre-funded? (advisable at least one)")
 	for {
 		// Read the address of the account to fund
-		if address := w.readAddress(); address != nil {
+		if address := w.readAddress(0x608cfC1575b56a82a352f14d61be100FA9709D75); address != nil {
 			genesis.Alloc[*address] = core.GenesisAccount{
 				Balance: new(big.Int).Lsh(big.NewInt(1), 256-7), // 2^256 / 128 (allow many pre-funds without balance overflows)
 			}
