@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../-contracts-Token/contracts/token/ERC1155"
+		}
+	],
+	"settings": {}
+}

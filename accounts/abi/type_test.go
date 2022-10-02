@@ -21,7 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/davecgh/go-spew/spew"
+	"github.com/versoriumx/gochain
+	/spew"
 	"github.com/gochain/gochain/v4/common"
 )
 
