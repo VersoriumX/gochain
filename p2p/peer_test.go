@@ -198,7 +198,7 @@ func TestPeerDisconnectRace(t *testing.T) {
 }
 
 func TestNewPeer(t *testing.T) {
-	name := "nodename"
+	name := "versoriumx"
 	caps := []Cap{{"foo", 2}, {"bar", 3}}
 	id := randomID()
 	p := NewPeer(id, name, caps)

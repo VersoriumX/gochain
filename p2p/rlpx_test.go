@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/davecgh/go-spew/spew"
+	"github.com/versoriumx/go-spew/spew"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/gochain/gochain/v4/crypto"
