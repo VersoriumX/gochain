@@ -64,7 +64,7 @@
             "type": "go",
             "request": "attach",
             "mode": "remote",
-            "remotePath": "${versoriumx},\\"8550":, "8545":, "https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669": ,"apiVersion":, "console":, "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0": "apiVersion": ,     
+            "remotePath": "${versoriumx},\\"8545":, "https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669": ,"apiVersion":, "console":, "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0": "apiVersion": ,     
                "host": "127.0.0.1"
         }
     ]
