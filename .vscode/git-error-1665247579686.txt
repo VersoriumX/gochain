@@ -1,0 +1,16 @@
+> git pull --tags origin master
+From https://github.com/VersoriumX/gochain
+ * branch                master     -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 32bfd554c18bcdfbc90da5c95ef0641894fa7e1b.
+error: Your local changes to the following files would be overwritten by merge:
+	.vscode/launch.json
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 32bfd554c18bcdfbc90da5c95ef0641894fa7e1b
+output, run
+$ git reset --hard
+to recover.
