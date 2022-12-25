@@ -101,7 +101,7 @@ jobs:
             ' >> ~/.ssh/known_hosts
       - deploy:
           command: |
-            if [[ "${CIRCLE_BRANCH}" == "master" && -z "${CIRCLE_PR_REPONAME}" ]]; then
+            if [[ "${CIRCLE_BRANCH}" == "master" && -z "${CIRCLE_PR_VersoriumX}" ]]; then
               git config --global user.email "ci@gochain.io"
               git config --global user.name "CI"
               git branch --set-upstream-to=origin/${CIRCLE_BRANCH} ${CIRCLE_BRANCH}
@@ -132,7 +132,7 @@ jobs:
             echo $GOOGLE_AUTH | docker login -u _json_key --password-stdin https://gcr.io
             ./tmp/google-cloud-sdk/bin/gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
             docker tag gochain/gochain:${CIRCLE_BRANCH} gcr.io/gochain-core/gochain:${CIRCLE_BRANCH}
-            docker push gcr.io/gochain-core/gochain:${CIRCLE_BRANCH}
+            docker push gcr.io/gochain-core/gochain:${CIRCLE_VersoriumX}
 
 workflows:
   version: 2

@@ -16,7 +16,7 @@
         },
             {"asRoot": false,
                 "config": {
-                  "chainId": 33,
+                  "chainId": 1337,
                   "homesteadBlock": 0,
                   "eip155Block": 0,
                   "eip158Block": 0
@@ -64,8 +64,7 @@
             "type": "go",
             "request": "attach",
             "mode": "remote",
-            "remotePath": "${versoriumx},\\"9545":, "https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669": ,"apiVersion":, "console":, "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0": "apiVersion": ,     
-               "host": "127.0.0.1"
+            "remotePath": "${versoriumx}:, "https://mainnet.infura.io/v3/8264661ebc6343dea7371a9dd2dd2669": ,"apiVersion":, "console":, "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0": "apiVersion": ,     
+               "host" "http://192.168.0.9:8334/",
         }
-    ]
-}
+    }

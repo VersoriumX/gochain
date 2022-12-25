@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../../cannon"
+		},
+		{
+			"path": "../../DefiLlama-Adapters/projects/aave"
+		},
+		{
+			"path": "../../ganache-ui"
 		}
 	],
 	"settings": {}

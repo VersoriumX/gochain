@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "chain",
+			"path": "truffle-starter-kit",
+			"problemMatcher": [],
+			"label": "npm: chain - truffle-starter-kit",
+			"detail": "ganache -d"
+		}
+	]
+}
