@@ -25,7 +25,7 @@ module.exports = {
     Ethereum: {
       provider: () => new Web3HDWalletProvider(
         mnemonic,
-        new Web3.providers.HttpProvider("http://192.168.0.7")),
+        new Web3.providers.HttpProvider("http://127.0.0.1")),
       network_id: 1
     },
     db: {

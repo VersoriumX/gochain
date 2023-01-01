@@ -2,6 +2,7 @@
   "name": "hardhat-project",
   "dependencies": {
     "alchemy-sdk": "^2.2.5",
+    "eip1559": "^1.0.6",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^7.1.5",
     "ganache-core": "^2.13.2",
